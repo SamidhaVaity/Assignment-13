@@ -1,0 +1,47 @@
+<div class = "container-fluid">
+  <style>
+    h3 {text-align: center;}
+    h2 {text-align: center;}
+    h1 {text-align: right;}
+    h1 {text-align: right;}
+  </style>
+
+  <body>
+    <img src = "\Image\2Capture.jpeg" height="250" width="250" alt="laptop" title="Customer Support Desk">
+  </body>
+
+  <h3 style="font-size:30px" style="color:pink">Contact Our</h3>
+  <h2 style="font-size:45px">Customer Support  Center</h2>
+  <h1 style="font-size:25px">Contact Information</h1>
+  <h1 style="font-size:15px">Please fill out your contact information below</h1>
+<!--Add FormGroup woth our model-->
+  <form [formGroup] = "MarvellousForm">
+  <div class="form-group">
+    <label>User Name </label>
+    <input type="text" class="form-control" formControlName="username">
+    
+    <span class="input-group-btn" style="width:10px;"></span>
+
+    <label>Last Name </label>
+    <input type="text" class="form-control" formControlName="Lastname">
+  </div>
+  
+  <div class="form-group">
+    <label>Email* </label>
+    <input type="email" class="form-control" formControlName="email">
+  </div>
+
+  <div class="form-group">
+    <label>Phone* </label>
+    <input type="text" class="form-control" formControlName="phone">
+  </div>
+
+  <div class="form-group">
+    <label>Address* </label>
+    <input type="text" class="form-control" formControlName="Address">
+  </div>
+
+  
+</form>
+
+</div>
